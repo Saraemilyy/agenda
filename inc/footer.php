@@ -62,7 +62,11 @@
 <footer class="py-5 bg-dark">
             <div class="container">
               <p class="m-0 text-center text-white">Copyright &copy; <?php echo $_settings->info('short_name') ?> 2021 - <?php echo date ('Y')?></p>
+<<<<<<< HEAD
               <p class="m-0 text-center text-white">Desenvolvido por: <a href="https://github.com/Saraemilyy"> Sara Castro</a></p>
+=======
+              <p class="m-0 text-center text-white">Desenvolvido por: <a href="scriptsphp.com.br"> SCRIPTS PHP</a></p>
+>>>>>>> 2562587 (Sistema Clínica Estética)
           </div>
         </footer>
 
