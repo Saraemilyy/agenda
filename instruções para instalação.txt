@@ -1,0 +1,17 @@
+
+
+1 - Versão recomendada do PHP: 8.0
+
+2 - Crie uma base de dados chamada de scheduler_db e importe o banco de dados para criar as tabelas.
+
+3 - Digite no navegador: localhosta/agenda para os clientes acessarem, ou mude o nome de acordo com o seu domínio, ai você vai  ter que mudar no arquivo initialize.php a linha 3, que ficará assim: https://seudominio.com.br/
+
+4 - Para acessar o seu painel como administrador digite no navegador:
+
+localhost/agenda/admin
+
+5 - Usuário: admin  
+    Senha: admin123
+
+
+
