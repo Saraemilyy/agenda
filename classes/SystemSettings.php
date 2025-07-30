@@ -127,6 +127,16 @@ class SystemSettings extends DBConnection{
 			return false;
 		}
 	}
+	function parametro($field=''){
+		if(!empty($field)){
+			if(isset($_SESSION['tbparametro'][$field]))
+				return $_SESSION['tbparametro'][$field];
+			else
+				return false;
+		}else{
+			return false;
+		}
+	}
 	function set_info($field='',$value=''){
 		if(!empty($field) && !empty($value)){
 			$_SESSION['system_info'][$field] = $value;

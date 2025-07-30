@@ -1,4 +1,6 @@
-<h1 class="text-light">Bem-Vindo a <?php echo $_settings->info('name') ?></h1>
+<!--<h1 class="text-light">Seja Bem-Vindo(a) <?php echo $_settings->info('name') ?>!</h1> VERSÃO ANTIGA-->
+<h1 class="text-light">Seja Bem-Vindo(a) <?php echo ucwords($_settings->userdata('firstname').' '.$_settings->userdata('lastname')) ?>!</h1>
+
 <?php
  $sched_arr=array();
 ?>

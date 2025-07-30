@@ -35,16 +35,7 @@
                       <a href="<?php echo base_url ?>admin/?page=appointments" class="nav-link nav-appointments">
                         <i class="nav-icon fas fa-calendar"></i>
                         <p>
-                          Lista de Consultas
-                        </p>
-                      </a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                      <a href="<?php echo base_url ?>admin/?page=schedule_settings" class="nav-link nav-schedule_settings">
-                        <i class="nav-icon fas fa-calendar-day"></i>
-                        <p>
-                          Configurar Agenda
+                          Consultas
                         </p>
                       </a>
                     </li>
@@ -52,7 +43,15 @@
                       <a href="<?php echo base_url ?>admin/?page=user/list" class="nav-link nav-user_list">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
-                          Lista de Usuários
+                          Usuários
+                        </p>
+                      </a>
+                    </li>
+                     <li class="nav-item dropdown">
+                      <a href="<?php echo base_url ?>admin/?page=schedule_settings" class="nav-link nav-schedule_settings">
+                        <i class="nav-icon fas fa-calendar-day"></i>
+                        <p>
+                          Configurações - Agenda
                         </p>
                       </a>
                     </li>
@@ -60,7 +59,7 @@
                       <a href="<?php echo base_url ?>admin/?page=system_info" class="nav-link nav-system_info">
                         <i class="nav-icon fas fa-cogs"></i>
                         <p>
-                          Configurações
+                          Configurações - Sistema
                         </p>
                       </a>
                     </li>

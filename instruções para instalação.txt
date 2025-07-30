@@ -13,5 +13,7 @@ localhost/agenda/admin
 5 - Usuário: admin  
     Senha: admin123
 
+6 - a logo e o nome do site se localizam no arquivo: "C:\xampp\htdocs\agenda\admin\inc\header.php".
 
-
+7 - A página inicial de dashboard se localiza no arquivo: "C:\xampp\htdocs\agenda\admin\home.php".
+8 - A primeira página que mostra Home, Administração e Area do cliente se localiza no arquivo: "C:\xampp\htdocs\agenda\inc\header.php". Ele puxa outros elementos como: C:\xampp\htdocs\agenda\inc\topBarNav.php, C:\xampp\htdocs\agenda\inc\header.php. 

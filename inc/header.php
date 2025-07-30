@@ -1,6 +1,5 @@
 <?php
-  // require_once('sess_auth.php');
-  
+   //require_once('sess_auth.php');
 ?>
 <head>
     <meta charset="utf-8">
@@ -61,7 +60,7 @@
   
   <script src="<?php echo base_url ?>dist/js/script.js"></script>
     <script src="<?php echo base_url ?>assets/js/scripts.js"></script>
-   <!--  <script src="<?php echo base_url ?>assets/js/scripts1.js"></script> -->
+   <!--  <script src="<//?php echo base_url ?>assets/js/scripts1.js"></script> 
     <style>
     #main-header{
         position:relative;
@@ -81,54 +80,43 @@
         filter: drop-shadow(0px 7px 6px black);
         z-index:-1;
     }
-
-    <script type="text/javascript" src="<?php echo base_url?>assets\js\jquery-3.3.1.min.js"></script>
-    
+<script type="text/javascript" src="<?php echo base_url?>assets\js\jquery-3.3.1.min.js"></script>
   
-
- </style>
+</style>-->
    <link rel="stylesheet" href="<?php echo base_url?>assets\css\stylemenu.css">
   </head>
+<!------------------------------------------------------------------------------------------------------------->
 
   <nav class="navbar navbar-default bg-secondary ">
-  <div class="container-fluid">
+  <div class="container-d">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header text-white">
         <ul>
+    <!-- Nome do Sistema -->
+    <li class="site-name">
+        <span><?php echo $_settings->parametro('programa_id') ?></span>
+    </li>
             <li>
-                <a href="">Home</a>
+                <a href="">Início</a>
             </li>
-           
-
+            
             <li class="dropdown">
-                <a href="#">Administração</a>
-
+                <a>Administração</a>
                 <div class="dropdown-menu">
-                    <a href="<?php echo base_url ?>admin/login.php">Logar</a>
-                    
-                   
+                <a href="<?php echo base_url ?>admin/login.php">Logar</a>
                 </div>
             </li>
-
-
-
-
+            
             <li class="dropdown">
                 <a href="#">Área do Cliente</a>
-
                 <div class="dropdown-menu">
                     <a href="<?php echo base_url ?>clients/login_cliente.php">Logar</a>
-                    <a id="criarapontamento" href="#">Cadastrar</a>
-                   
+                    <a id="criarapontamento" href="#">Cadastrar</a>       
                 </div>
-            </li>
-          
+            </li>  
         </ul>
       </div>
-       
-            </li>
-
-
+      </li>
       </div>
       </div>
   </div>
@@ -139,7 +127,7 @@
 			uni_modal("Formulário de Cadastro de Clientes","clients/appointments/index1.php",'mid-large')
 		})
     })
-</script>
-    </nav>
+  </script>
+</nav>
 
     

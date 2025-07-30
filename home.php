@@ -1,18 +1,5 @@
  <!-- Header-->
- <header class="bg-dark py-5" id="main-header">
-    <div class="container px-4 px-lg-5 my-5">
-        <div class="text-center text-white">
-<<<<<<< HEAD
-            --<h1 class="display-4 fw-bolder"><?php echo $_settings->info('name') ?></h1>
-=======
-            <h1 class="display-4 fw-bolder"><?php echo $_settings->info('name') ?></h1>
->>>>>>> 2562587 (Sistema Clínica Estética)
-            <p class="lead fw-normal text-white-50 mb-0">
-              <!--   <button class="btn btn-sm btn-primary" type="button" id="create_appointment">Agende uma consulta agora</button> -->
-            </p>
-        </div>
-    </div>
-</header>
+ 
 <!-- Section-->
 <?php 
 $sched_arr = array();

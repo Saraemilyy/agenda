@@ -61,7 +61,7 @@
         </strong>
         Todos os direitos reservados.
         <div class="float-right d-none d-sm-inline-block">
-          <b><?php echo $_settings->info('short_name') ?> (Por: <a href="e-mail:rogeriomtc@gmail.com" target="blank">SCRIPTS - PHP</a> )</b> v1.0
+          <b><?php echo $_settings->info('short_name') ?> (Por: <a href="e-mail:rogeriomtc@gmail.com" target="blank">Infinity Tech</a> )</b> v0.1 - 07/25
         </div>
       </footer>
     </div>
@@ -120,6 +120,6 @@
         <div class="calendar-table"></div>
         <div class="calendar-time" style="display: none;"></div>
       </div>
-      <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">CancelAR</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div>
+      <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancelar</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div>
     </div>
     <div class="jqvmap-label" style="display: none; left: 1093.83px; top: 394.361px;">Idaho</div>
